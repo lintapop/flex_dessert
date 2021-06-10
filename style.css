@@ -1,0 +1,145 @@
+html {
+  color: #3f5d45;
+}
+
+a {
+  color: #3f5d45;
+  text-decoration: none;
+}
+body {
+  font-family: PingFang TC;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.menu a {
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+.menu a:hover {
+  background: #3f5d45;
+  color: #fff;
+}
+.banner {
+  margin-bottom: 60px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.aside {
+  width: 300px;
+}
+.aside h2 {
+  background: #3f5d45;
+  color: #fff;
+  line-height: 65px;
+  text-align: center;
+  font-size: 24px;
+}
+.aside li {
+  margin-bottom: -1px;
+}
+.aside li a {
+  line-height: 65px;
+  font-size: 24px;
+  text-align: center;
+  display: block;
+  border: 1px solid #eaf0ed;
+}
+.aside li a:hover {
+  background: #eaf0ed;
+}
+.productList {
+  width: 620px;
+}
+.productList-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.productList-card li {
+  margin-bottom: 20px;
+  width: 300px;
+  position: relative;
+}
+
+.productList-card .tag {
+  position: absolute;
+  background: #3f5d45;
+  color: #fff;
+  padding: 10px;
+  left: 20px;
+  top: 0;
+  letter-spacing: 5px;
+  writing-mode: vertical-lr;
+}
+.productList-card .heart {
+  position: absolute;
+  top: 19px;
+  right: 19px;
+  font-size: 20px;
+}
+.productList-card .productList-card-body {
+  border-bottom: 1px solid #eaf0ed;
+  border-left: 1px solid #eaf0ed;
+  border-right: 1px solid #eaf0ed;
+  line-height: 65px;
+  font-size: 20px;
+  display: flex;
+}
+.productList-card .productList-card-body h2 {
+  width: 173px;
+  text-align: center;
+  border-right: 1px solid #eaf0ed;
+}
+.productList-card .productList-card-body span {
+  width: 127px;
+  text-align: center;
+}
+.productList-card .productList-card-cart {
+  background: #eaf0ed;
+  line-height: 65px;
+  text-align: center;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+}
+.pagination-list {
+  display: flex;
+}
+
+.pagination-list a {
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  width: 58px;
+  border: 1px solid #eaf0ed;
+}
+.pagination-list a:hover {
+  background: #3f5d45;
+  color: #fff;
+}
+.mt-1 {
+  margin-top: 10px;
+}
